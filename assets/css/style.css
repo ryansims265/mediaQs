@@ -221,7 +221,7 @@ input[type=submit] {
     max-width: 980px;
   }
   .work{
-    max-width: 980px;
+    max-width: 900px;
   }
 } 
 
@@ -230,7 +230,7 @@ input[type=submit] {
     max-width: 768px;
   }
   .work{
-    max-width: 768px;
+    max-width: 700px;
   }
 } 
 /* Not sure if the container needs to be comtrained but set the value to the max anyway */
