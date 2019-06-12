@@ -216,8 +216,32 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width: 650px) {
-  body {
-    background-color: #333;
+@media screen and (max-width: 980px) {
+  container{
+    max-width: 980px;
+  }
+  .work{
+    max-width: 980px;
+  }
+} 
+
+@media screen and (max-width: 768px) {
+  container{
+    max-width: 768px;
+  }
+  .work{
+    max-width: 768px;
+  }
+} 
+
+@media screen and (max-width: 640px) {
+  body{
+    max-width: 768px;
+  }
+  header{
+    position: static;
+  }
+  .work{
+    max-width: 200px;
   }
 } 
